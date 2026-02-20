@@ -1,5 +1,7 @@
 # git notes
 
+Main source: https://www.w3schools.com/git/git_branch_merge.asp?remote=github
+
 ## when to create a branch
 
 Branches are like a separate workspace to make changes and try new things without affecting the main project. Common reasons to create one:
