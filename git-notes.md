@@ -79,3 +79,24 @@ git merge
 ## when to delete a branch
 
 ## creating pull requests
+
+## changes made but do not belong to current branch
+
+### if changes are not yet committed
+
+If this happens I can just create a new branch, switch to it and commit whatever I want:
+
+```bash
+git switch -c <new-branch-name>
+git add . 
+git commit -m "Add changes of interest"
+```
+
+### if changes are committed
+
+```bash
+git branch <new-branch-name> # create new branch at current commit
+git switch <original-branch> # go back to original branch
+git reset --hard HEAD~1 # remove most recent commit
+```
+
