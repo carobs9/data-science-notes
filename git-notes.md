@@ -75,6 +75,10 @@ git checkout main
 git merge feature-branch
 git merge
 ```
+When everything has been merged but everything is also a mess and you regret it:
+```bash
+git merge --abort
+```
 
 ## when to delete a branch
 
