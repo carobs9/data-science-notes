@@ -1,6 +1,6 @@
 # git notes
 
-Main sources are this website, ohshitgit and my own mistakes. https://www.w3schools.com/git/git_branch_merge.asp?remote=github
+Main sources are [Oh Shit, Git!?!](https://ohshitgit.com/) and the [w3schools git tutorial](https://www.w3schools.com/git/git_branch_merge.asp?remote=github).
 
 ## when to create a branch
 
