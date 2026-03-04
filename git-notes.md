@@ -1,6 +1,6 @@
 # git notes
 
-Main source: https://www.w3schools.com/git/git_branch_merge.asp?remote=github
+Main sources are this website, ohshitgit and my own mistakes. https://www.w3schools.com/git/git_branch_merge.asp?remote=github
 
 ## when to create a branch
 
@@ -75,14 +75,26 @@ git checkout main
 git merge feature-branch
 git merge
 ```
-When everything has been merged but everything is also a mess and you regret it:
+### when everything has been merged but everything is also a mess and you regret it
 ```bash
 git merge --abort
 ```
 
+### everything is still messy, i don't know what's going on but the main branch is the golden standard and i want my branch to look like it
+```bash
+git merge --abort
+git fetch origin # fetch latest remote state
+git reset --hard origin/main # discard all local changes on specific branch, making the specific branch identical to main
+git push --force # remotely make the branch match main
+```
+
 ## when to delete a branch
 
+In progress...
+
 ## creating pull requests
+
+In progress...
 
 ## changes made but do not belong to current branch
 
