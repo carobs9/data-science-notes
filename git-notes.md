@@ -15,9 +15,19 @@ Branches are like a separate workspace to make changes and try new things withou
 git checkout -b branch-name 
 ```
 
-### list branches
+### list local branches
 ``` bash
 git branch
+```
+
+### list remote branches
+``` bash
+git branch -r
+```
+
+### list local and remote branches
+``` bash
+git branch -a
 ```
 
 ## staging 
