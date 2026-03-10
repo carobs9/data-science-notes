@@ -1,0 +1,2 @@
+- Calculate running routes based on the starting location and length (km) provided by the user. Potentially use OSMNX.
+- Get historical Garmin heart rate data and calculate heart rate zones. Maybe also analyze historical runs.
