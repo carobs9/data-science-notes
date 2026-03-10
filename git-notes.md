@@ -98,6 +98,13 @@ git reset --hard origin/main # discard all local changes on specific branch, mak
 git push --force # remotely make the branch match main
 ```
 
+### i managed to make my branch look like main, but i accidentally deleted a file i needed
+```bash
+git reflog # helps looking into history and finding the commit with the needed file
+git show --name-only b62a624 # displays the name of the file
+git restore --source b62a624 path/to/file # collect file
+```
+
 ## when to delete a branch
 
 In progress...
